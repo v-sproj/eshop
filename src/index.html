@@ -1,115 +1,137 @@
 <!doctype html>
 <html lang="cs" data-bs-theme="auto">
+
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Niceboy</title>
-    <link rel="stylesheet" href="css/styles.css">
-    <script type="module" src="./js/main.js"></script> 
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Niceboy</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <script type="module" src="./js/main.js"></script>
 </head>
 
 <header>
-      <nav class="navbar navbar-expand-lg">
-        <div class="container">
-            <a class="navbar-brand" href="#">
-                <img src="images/Niceboy-nove-logo.png" alt="Niceboy logo" width="105" height="55">
+  <nav class="navbar navbar-expand-md bg-body-tertiary">
+    <div class="container">
+      <img src="images/Niceboy-nove-logo.png" alt="Niceboy logo" width="105" height="55">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 ">
+
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Hledat" aria-label="Search">
+            <button class="btn" type="submit">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-search"
+                viewBox="0 0 16 16">
+                <path
+                  d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0" />
+              </svg>
+            </button>
+          </form>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi bi-cart2"
+                viewBox="0 0 16 16">
+                <path
+                  d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5M3.14 5l1.25 5h8.22l1.25-5zM5 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2m-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0m9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2m-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0" />
+              </svg>
             </a>
+            <ul class="dropdown-menu dropdown-menu-end">
+              <li><a class="dropdown-item" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                    fill="currentColor" class="bi bi-heart-fill pe-1" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd"
+                      d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314" />
+                  </svg> Zobrazit oblíbené</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">
+                  <p>bla bla</p>
+                  <p>bla bla bla</p>
+                </a>
+              </li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">
+                  <p>bla bla</p>
+                  <p>bla bla bla</p>
+                </a>
+              </li>
+            </ul>
+          </li>
+        </ul>
 
-            <div class="d-flex align-items-center">
-                <form class="d-flex" role="search">
-                    <input class="form-control me-2" type="search" placeholder="Hledat" aria-label="Search">
-                    <button class="btn" type="submit">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
-                        <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
-                      </svg>
-                    </button>
-                  </form>
-    
-                  <a href="#" class="text-decoration-none text-dark px-3">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
-                        <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143q.09.083.176.171a3 3 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15"/>
-                      </svg>
-                  </a>
-
-                  <!--dát pryč outline-->
-                  <div id="navbarNavDropdown">
-                    <ul class="navbar-nav">
-                      <li class="nav-item dropdown">
-                        <button data-bs-toggle="dropdown" aria-expanded="false">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi bi-cart2" viewBox="0 0 16 16">
-                                <path d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5M3.14 5l1.25 5h8.22l1.25-5zM5 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2m-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0m9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2m-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0"/>
-                            </svg>
-                        </button>
-                        <ul class="dropdown-menu">
-                          <li><a class="dropdown-item" href="#">Action</a></li>
-                          <li><a class="dropdown-item" href="#">Another action</a></li>
-                          <li><a class="dropdown-item" href="#">Something else here</a></li>
-                        </ul>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-      </nav>
+      </div>
+    </div>
+  </nav>
 </header>
 
 <body>
-    <main>
-        <div class="container">
-        <div class="d-flex justify-content-end">
-            <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
-                Filtrace
-              </button>
-              <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
-                <div class="offcanvas-header">
-                  <h5 class="offcanvas-title" id="offcanvasExampleLabel">Filtrace</h5>
-                  <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-                </div>
+  <main>
+    <div class="container">
+      <div class="d-flex justify-content-end">
+        <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample"
+          aria-controls="offcanvasExample">
+          Filtrace
+        </button>
+        <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample"
+          aria-labelledby="offcanvasExampleLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasExampleLabel">Filtrace</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
 
-                <div class="offcanvas-body">
-                    <div>
-                    <div class="form-check">
-                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" checked>
-                        <label class="form-check-label" for="flexRadioDefault1">
-                          Sluchátka
-                        </label>
-                    </div>
-                    <div class="form-check">
-                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
-                        <label class="form-check-label" for="flexRadioDefault2">
-                          Reproduktory
-                        </label>
-                    </div>
-                  </div>
-
-                  <div>
-                    <h6>Sluchátka</h6>
-                    
-                  </div>
-
-
-
-                  <!--hmm? https://bootsnipp.com/snippets/M52Gl-->
-
-                  
-
-                </div>
+          <div class="offcanvas-body">
+            <div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" checked>
+                <label class="form-check-label" for="flexRadioDefault1">
+                  Sluchátka
+                </label>
               </div>
-
-              <div>
-                <select class="form-select" aria-label="Default select example">
-                    <option selected>Řazení</option>
-                    <option value="1">Od doporučených</option>
-                    <option value="2">Od nejlevnějších</option>
-                    <option value="3">Od nejdražších</option>
-                    <option value="4">Od nejprodávanějších</option>
-                  </select>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
+                <label class="form-check-label" for="flexRadioDefault2">
+                  Reproduktory
+                </label>
               </div>
-              
+            </div>
+
+            <div class="py-5">
+              <h5>Sluchátka</h5>
+
+            </div>
+
+            <div>
+              <h5>Reproduktory</h5>
+
+            </div>
+
+
+
+          </div>
         </div>
+
+        <div>
+          <select class="form-select" aria-label="Default select example">
+            <option selected>Řazení</option>
+            <option value="1">Od doporučených</option>
+            <option value="2">Od nejlevnějších</option>
+            <option value="3">Od nejdražších</option>
+            <option value="4">Od nejprodávanějších</option>
+          </select>
+        </div>
+
+      </div>
     </div>
-    </main>
+  </main>
 
 
 </body>
+
 </html>
