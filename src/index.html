@@ -63,13 +63,13 @@
                 <hr class="dropdown-divider">
               </li>
               <li><a class="dropdown-item" href="#">
-                <div>
-                  <p>bla bla</p>
-                </div>
-                <div class="d-flex justify-content-between">
-                  <p>bla bla bla</p>
-                  <p>1000Kč</p>
-                </div>
+                  <div>
+                    <p>bla bla</p>
+                  </div>
+                  <div class="d-flex justify-content-between">
+                    <p>bla bla bla</p>
+                    <p>1000Kč</p>
+                  </div>
                 </a>
               </li>
             </ul>
@@ -84,7 +84,7 @@
 <body>
   <main>
     <div class="container">
-      <div class="d-flex justify-content-end">
+      <div class="d-flex justify-content-end pt-5">
         <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample"
           aria-controls="offcanvasExample">
           Filtrace
@@ -203,31 +203,55 @@
               <div>
                 <h6>Hmotnost</h6>
                 <div class="form-check">
-                  <input class="form-check-input" type="checkbox" value="" checked>
-                  <label class="form-check-label" for="flexCheckChecked">
-                    Voděodolné
+                  <input class="form-check-input" type="checkbox" value="">
+                  <label class="form-check-label" for="flexCheckDefault">
+                    Do 500 g
                   </label>
                 </div>
                 <div class="form-check">
                   <input class="form-check-input" type="checkbox" value="">
                   <label class="form-check-label" for="flexCheckDefault">
-                    Bez zvýšené odolnosti
+                    500 g - 1 kg
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" value="" checked>
+                  <label class="form-check-label" for="flexCheckChecked">
+                    1 - 2 kg
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" value="" checked>
+                  <label class="form-check-label" for="flexCheckChecked">
+                    Více než 2 kg
                   </label>
                 </div>
               </div>
 
-              <div>
+              <div class="pt-3">
                 <h6>Výkon</h6>
                 <div class="form-check">
-                  <input class="form-check-input" type="checkbox" value="" checked>
-                  <label class="form-check-label" for="flexCheckChecked">
-                    Voděodolné
+                  <input class="form-check-input" type="checkbox" value="">
+                  <label class="form-check-label" for="flexCheckDefault">
+                    Do 10 W
                   </label>
                 </div>
                 <div class="form-check">
                   <input class="form-check-input" type="checkbox" value="">
                   <label class="form-check-label" for="flexCheckDefault">
-                    Bez zvýšené odolnosti
+                    10 - 30 W
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" value="" checked>
+                  <label class="form-check-label" for="flexCheckChecked">
+                    30 - 60 W
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" value="">
+                  <label class="form-check-label" for="flexCheckDefault">
+                    Více než 60 W
                   </label>
                 </div>
               </div>
@@ -236,7 +260,7 @@
         </div>
 
         <div>
-          <select class="form-select" aria-label="Default select example">
+          <select class="form-select ms-2" aria-label="Default select example">
             <option selected>Řazení</option>
             <option value="1">Od doporučených</option>
             <option value="2">Od nejlevnějších</option>
@@ -244,10 +268,174 @@
             <option value="4">Od nejprodávanějších</option>
           </select>
         </div>
+      </div>
 
+      <div class="pt-3 pb-5">
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+          <div>
+            <div class="card h-100">
+              <a href="#"><img src="images/hive-pins-3-anc-01-galerie.jpg" class="card-img-top"
+                  alt="Fotka produktu"></a>
+              <div class="card-body">
+                <h5 class="card-title"><b>HIVE Pins 3 ANC Black</b></h5>
+                <p class="card-text small text-muted">Sluchátka Niceboy HIVE Pins 3 ANC Black nabídnou maximální zážitek
+                  z hudby s
+                  technologií pro potlačení ruchů z okolí...</p>
+                <p><b>1 499 Kč</b></p>
+                <a href="#" class="btn btn-primary w-100 mb-2"><svg xmlns="http://www.w3.org/2000/svg" width="30"
+                    height="30" fill="currentColor" class="bi bi-cart2" viewBox="0 0 22 22">
+                    <path
+                      d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5M3.14 5l1.25 5h8.22l1.25-5zM5 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2m-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0m9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2m-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0" />
+                  </svg>Do košíku</a>
+                <a href="#" class="btn btn-secondary w-100">Detail produktu</a>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div class="card h-100">
+              <img src="..." class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a short card.</p>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div class="card h-100">
+              <img src="..." class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
+                  content.</p>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div class="card h-100">
+              <img src="..." class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
+                  content. This content is a little bit longer.</p>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div class="card h-100">
+              <img src="..." class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
+                  content. This content is a little bit longer.</p>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div class="card h-100">
+              <img src="..." class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
+                  content. This content is a little bit longer.</p>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div class="card h-100">
+              <img src="..." class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
+                  content. This content is a little bit longer.</p>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div class="card h-100">
+              <img src="..." class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
+                  content. This content is a little bit longer.</p>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div class="card h-100">
+              <img src="..." class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
+                  content. This content is a little bit longer.</p>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div class="card h-100">
+              <img src="..." class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
+                  content. This content is a little bit longer.</p>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div class="card h-100">
+              <img src="..." class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
+                  content. This content is a little bit longer.</p>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div class="card h-100">
+              <img src="..." class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
+                  content. This content is a little bit longer.</p>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div class="card h-100">
+              <img src="..." class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
+                  content. This content is a little bit longer.</p>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div class="card h-100">
+              <img src="..." class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
+                  content. This content is a little bit longer.</p>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div class="card h-100">
+              <img src="..." class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
+                  content. This content is a little bit longer.</p>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </main>
+
+  <footer></footer>
 
 
 </body>
