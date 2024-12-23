@@ -42,7 +42,7 @@
             </a>
             <ul class="dropdown-menu dropdown-menu-end">
               <li><a class="dropdown-item" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
-                    fill="currentColor" class="bi bi-heart-fill pe-1" viewBox="0 0 16 16">
+                    fill="currentColor" class="bi bi-heart-fill pe-1" viewBox="0 0 20 20">
                     <path fill-rule="evenodd"
                       d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314" />
                   </svg> Zobrazit oblíbené</a></li>
@@ -50,12 +50,15 @@
                 <hr class="dropdown-divider">
               </li>
               <li><a class="dropdown-item" href="#">
-                  <div>
-                    <p>bla bla</p>
-                  </div>
-                  <div class="d-flex justify-content-between">
-                    <p>bla bla bla</p>
-                    <p>1000Kč</p>
+                  <div class="d-flex align-items-center p-1">
+                    <div>
+                      <img src="images/hive-pins-anc-gallery-02.jpg" alt="Fotka produktu"
+                        style="width: 100px; height: 100px;">
+                    </div>
+                    <div class="ms-3">
+                      <p class="fw-semibold">HIVE Pins 3 ANC Sakura Pink</p>
+                      <p class="fw-bold">1 499 Kč</p>
+                    </div>
                   </div>
                 </a>
               </li>
@@ -63,13 +66,23 @@
                 <hr class="dropdown-divider">
               </li>
               <li><a class="dropdown-item" href="#">
-                  <div>
-                    <p>bla bla</p>
+                  <div class="d-flex align-items-center p-1">
+                    <div>
+                      <img src="images/hive-podsie-3-gallery-01.jpg" alt="Fotka produktu"
+                        style="width: 100px; height: 100px;">
+                    </div>
+                    <div class="ms-3">
+                      <p class="fw-semibold">HIVE Podsie 3 Black</p>
+                      <p class="fw-bold">999 Kč</p>
+                    </div>
                   </div>
-                  <div class="d-flex justify-content-between">
-                    <p>bla bla bla</p>
-                    <p>1000Kč</p>
-                  </div>
+                </a>
+              </li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item text-center p-2" href="#">
+                  Do košíku
                 </a>
               </li>
             </ul>
@@ -84,40 +97,57 @@
 <body>
   <main>
     <div class="container">
-      <section> <!--galerie + na pravé straně info-->
-        <div class="row">
-          <div class="col-xl-6">
-            <div id="productCarousel" class="f-carousel md:order-last">
-              <div class="f-carousel__slide" data-thumb-src="images/hive-pins-3-anc-01-galerie.jpg"
-                data-fancybox="gallery" data-src="images/hive-pins-3-anc-01-galerie.jpg">
-                <img alt="Fotka produktu" src="images/hive-pins-3-anc-01-galerie.jpg" />
-              </div>
+      <section>
+        <div class="row my-5 d-flex justify-content-between">
+          <div class="col-xl-6 col-md-12">
+            <div class="mt-5">
+              <div class="row">
+                <div class="col-xl-2 col-sm-12">
+                  <div class="d-flex flex-xl-column">
+                    <a data-fancybox="gallery" href="images/hive-pins-3-anc-01-galerie.jpg">
+                      <img src="images/hive-pins-3-anc-01-galerie.jpg" class="img-fluid mb-2" alt="Fotka produktu">
+                    </a>
+                    <a data-fancybox="gallery" href="images/anc-galerie.jpg">
+                      <img src="images/anc-galerie.jpg" class="img-fluid mb-2 op-50" alt="Fotka produktu">
+                    </a>
+                    <a data-fancybox="gallery" href="images/anc-galerie2.jpg">
+                      <img src="images/anc-galerie2.jpg" class="img-fluid mb-2 op-50" alt="Fotka produktu">
+                    </a>
+                    <a data-fancybox="gallery" href="images/anc-galerie23.jpg">
+                      <img src="images/anc-galerie23.jpg" class="img-fluid mb-2 op-50" alt="Fotka produktu">
+                    </a>
+                    <a data-fancybox="gallery" href="images/anc-galerie3.jpg">
+                      <img src="images/anc-galerie3.jpg" class="img-fluid mb-2 op-50" alt="Fotka produktu">
+                    </a>
+                  </div>
+                </div>
 
-              <div class="f-carousel__slide" data-thumb-src="images/hive-podsie-3-gallery-01.jpg"
-                data-fancybox="gallery" data-src="images/hive-airsport-galerie-02">
-                <img alt="Fotka produktu" data-lazy-src="images/hive-podsie-3-gallery-01.jpg" />
-              </div>
-
-              <div class="f-carousel__slide" data-thumb-src="images/hive-podsie-3-gallery-01.jpg"
-                data-fancybox="gallery" data-src="images/hive-airsport-galerie-02">
-                <img alt="Fotka produktu" data-lazy-src="images/hive-podsie-3-gallery-01.jpg" />
+                <div class="col-xl-10 col-sm-12">
+                  <a data-fancybox="gallery" href="images/hive-pins-3-anc-01-galerie.jpg">
+                    <img src="images/hive-pins-3-anc-01-galerie.jpg" class="img-fluid" alt="Main Image">
+                  </a>
+                </div>
               </div>
             </div>
+
+
           </div>
 
-          <div class="col-xl-6">
-            <h1>HIVE Pins 3 ANC Black</h1>
+          <div class="col-xl-5 col-md-12">
+            <h1 class="pb-2 pt-4 fw-bold">HIVE Pins 3 ANC</h1>
 
-            <p>Sluchátka Niceboy HIVE Pins 3 ANC Black nabídnou maximální zážitek z hudby s technologií pro potlačení
+            <p class="pb-2">Sluchátka Niceboy HIVE Pins 3 ANC nabídnou maximální zážitek z hudby s technologií pro
+              potlačení
               ruchů z okolí. A pro maximální bezpečnost je tu pak mód Ambient, který k hudbě naopak zvuky z okolí přidá,
               takže budete stále v obraze, co se kolem vás děje. Sluchátka nabídnou navíc výdrž až 40 hodin a vlastní
-              aplikaci Niceboy ION, se kterou dostáváte řadu zajímavých funkcí navíc. <a href="">Číst více</a></p>
+              aplikaci Niceboy ION, se kterou dostáváte řadu zajímavých funkcí navíc. <a href="#popis">Číst více</a></p>
 
-            <p>Barva</p>
+            <p class="fw-semibold">Barva</p>
 
-            <div class="row detail ps-2">
+            <div class="row detail ps-2 pb-5">
               <div class="detail-border col py-2">
-                <a href="#" class="detail-img"><img src="images/hive-pins-3-anc-01-galerie.jpg" alt="Barevná varianta produktu"></a>
+                <a href="#" class="detail-img"><img src="images/hive-pins-3-anc-01-galerie.jpg"
+                    alt="Barevná varianta produktu"></a>
               </div>
 
               <div class="detail-border col py-2 mx-2">
@@ -132,25 +162,115 @@
                 <a href="#" class="detail-img"><img src="images/anc-blue.jpg" alt="Barevná varianta produktu"></a>
               </div>
             </div>
-            <p>1 499 Kč</p>
 
-            <a href="#" class="btn btn-primary w-100 mb-2"><svg xmlns="http://www.w3.org/2000/svg" width="30"
-                height="30" fill="currentColor" class="bi bi-cart2" viewBox="0 0 22 22">
+            <p class="fw-bold fs-2">1 499 Kč</p>
+
+            <button type="button" class="btn btn-primary w-100" data-bs-toggle="modal" data-bs-target="#exampleModal">
+              <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-cart2"
+                viewBox="0 0 22 22">
                 <path
                   d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5M3.14 5l1.25 5h8.22l1.25-5zM5 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2m-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0m9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2m-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0" />
-              </svg>Přidat do košíku</a>
+              </svg>Přidat do košíku
+            </button>
 
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+              aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h1 class="modal-title fs-4" id="exampleModalLabel">Přidáno do košíku!</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body row">
+                    <p>Mohlo by se vám také líbit:</p>
+                    <div class="col">
+                      <a href="index.html" class="text-decoration-none">
+                        <div class="card text-center">
+                          <img src="images/party-boom-gallery-01.jpg" class="card-img-top" alt="Fotka produktu">
+                          <div class="card-body">
+                            <p class="card-text">PARTY Boom</p>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+
+                    <div class="col">
+                      <a href="index.html" class="text-decoration-none">
+                        <div class="card text-center">
+                          <img src="images/raze-mini4-gallery-01.jpg" class="card-img-top" alt="Fotka produktu">
+                          <div class="card-body">
+                            <p class="card-text">RAZE Mini 4</p>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+
+                    <div class="col">
+                      <a href="index.html" class="text-decoration-none">
+                        <div class="card text-center">
+                          <img src="images/hive-spacepods-galerie-01.jpg" class="card-img-top" alt="Fotka produktu">
+                          <div class="card-body">
+                            <p class="card-text">SpacePods</p>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Přejít do košíku</button>
+                    <button type="button" class="btn btn-primary"><a href="index.html"
+                        class="text-light text-decoration-none">Pokračovat v nákupu</a></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <p><b>SKLADEM › 5</b>, ihned k odeslání</p>
 
           </div>
         </div>
-        <div>
+      </section>
 
+      <section class="py-5">
+        <ul class="nav nav-tabs">
+          <li class="nav-item">
+            <a class="nav-link active fw-bolder" data-bs-toggle="tab" href="#popis-tab" id="popis">Popis</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link fw-bolder" data-bs-toggle="tab" href="#parametry-tab">Parametry</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link fw-bolder" data-bs-toggle="tab" href="#recenze-tab">Recenze</a>
+          </li>
+        </ul>
+
+        <div class="tab-content">
+          <div class="tab-pane fade show active" id="popis-tab">
+            <div class="row d-flex align-items-center bg-info py-4 my-5 rounded">
+              <div class="col">
+                <h2>Zvuk bez ruchů s ANC nebo zvuk okolí s Ambient módem? Jak si budete přát</h2>
+              </div>
+
+              <div class="col">
+                <p>Sluchátka mají tři režimy poslechu, mezi kterými si můžete vybírat podle toho, co zrovna potřebujete.
+                  Kromě standardního módu se skvělým zvukem ve všech frekvencích je tu režim s technologií Active Noise
+                  Cancellation, která potlačuje zvuky z okolí. Můžete se tak zcela ponořit do poslechu hudby či filmu,
+                  aniž by vás cokoliv zvenčí rušilo. S módem Ambient pak můžete pro zvýšení své bezpečnosti naopak zvuky
+                  z okolí přidat, což je ideální při běhání městem - uslyšíte jak svou hudbu, tak okolní provoz.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="tab-pane fade" id="parametry-tab">
+            <p>Content for Parametry goes here...</p>
+          </div>
+
+          <div class="tab-pane fade" id="recenze-tab">
+            <p>Content for Recenze goes here...</p>
+          </div>
         </div>
       </section>
 
-      <section> <!--parametry-->
-
-      </section>
 
       <section> <!--recenze-->
 
