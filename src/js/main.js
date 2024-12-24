@@ -11,6 +11,14 @@ import "@fancyapps/ui/dist/fancybox/fancybox.css";
 Fancybox.bind('[data-fancybox]', {
 });
 
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
+AOS.init({
+    duration: 700,
+  });
+  
+
 
   
   
