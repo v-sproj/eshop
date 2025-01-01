@@ -725,8 +725,45 @@
               </div>
             </div>
           </div>
-
         </div>
+      </section>
+
+      <section class="mt-5">
+        <h4 class="pb-3">Máte nějaký dotaz? Napiště nám!</h4>
+        <form>
+          <div class="mb-3">
+            <label for="formGroupExampleInput" class="form-label">Jméno</label>
+            <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Zadejte jméno">
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">E-mailová adresa</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Zadejte e-mailovou adresu">
+          </div>
+          <div class="mb-3">
+            <label for="form-select" class="form-label">Vyberte typ dotazu:</label>
+            <select class="form-select" aria-label="Default select example">
+              <option selected>Typ dotazu</option>
+              <option value="1">Technická specifikace</option>
+              <option value="2">Dostupnost produktu</option>
+              <option value="3">Reklamace nebo oprava</option>
+              <option value="4">Příslušenství k produktu</option>
+              <option value="5">Jiný dotaz</option>
+            </select>
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label">Dotaz</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Zadejte dotaz"></textarea>
+          </div>
+          <div class="mb-3">
+            <label for="formFile" class="form-label">Vyberte soubor (nepovinné):</label>
+            <input class="form-control" type="file" id="formFile">
+          </div>
+          <div class="mb-4 form-check">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <label class="form-check-label" for="exampleCheck1">Souhlasím se zpracováním osobních údajů pro účely odpovědi na můj dotaz.</label>
+          </div>
+          <button type="submit" class="btn btn-primary">Odeslat dotaz</button>
+        </form>
       </section>
     </div>
   </main>
