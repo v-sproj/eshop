@@ -62,3 +62,11 @@
     width: 45%;
    }
 }
+
+.footer-bg {
+  background-color: rgb(31, 31, 31);
+}
+
+.footer-bg-dark {
+  background-color: rgb(20, 20, 20);
+}

@@ -28,6 +28,18 @@ document.querySelectorAll('a[data-bs-toggle="tab"]').forEach(tab => {
   });
 });
 
+document.querySelectorAll('.nav-link').forEach(link => {
+  link.addEventListener('shown.bs.tab', event => {
+    document.querySelectorAll('.nav-link').forEach(nav => {
+      nav.classList.remove('text-dark');
+      nav.classList.add('text-info');
+    });
+    event.target.classList.remove('text-info');
+    event.target.classList.add('text-dark');
+  });
+});
+
+
 
 
 
