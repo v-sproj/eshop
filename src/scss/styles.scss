@@ -2,6 +2,11 @@ $primary: #ffb835;
 $secondary: #c2c2c2;
 $info: #e97528;
 
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&display=swap');
+
+$font-family-sans-serif: 'Kumbh Sans', sans-serif !default;
+$font-family-base: $font-family-sans-serif;
+
 // Import all of Bootstrap's CSS
 @import "bootstrap";
 
