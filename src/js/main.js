@@ -40,6 +40,9 @@ document.querySelectorAll('.nav-link').forEach(link => {
 });
 
 
+$(element).inputSpinner(config);
+
+
 
 
 

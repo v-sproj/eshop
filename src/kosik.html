@@ -80,21 +80,21 @@
                   </a>
                 </li>
                 <li>
-                    <hr class="dropdown-divider">
-                  </li>
-                  <li><a class="dropdown-item" href="index.html">
-                      <div class="d-flex align-items-center p-1">
-                        <div>
-                          <img src="images/hive-spacepods-galerie-01.jpg" alt="Fotka produktu"
-                            style="width: 100px; height: 100px;">
-                        </div>
-                        <div class="ms-3">
-                          <p class="fw-semibold">HIVE SpacePods</p>
-                          <p class="fw-bold">1 199 Kč</p>
-                        </div>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="index.html">
+                    <div class="d-flex align-items-center p-1">
+                      <div>
+                        <img src="images/hive-spacepods-galerie-01.jpg" alt="Fotka produktu"
+                          style="width: 100px; height: 100px;">
                       </div>
-                    </a>
-                  </li>
+                      <div class="ms-3">
+                        <p class="fw-semibold">HIVE SpacePods</p>
+                        <p class="fw-bold">1 199 Kč</p>
+                      </div>
+                    </div>
+                  </a>
+                </li>
                 <li>
                   <hr class="dropdown-divider">
                 </li>
@@ -105,14 +105,164 @@
               </ul>
             </li>
           </ul>
-
         </div>
       </div>
     </nav>
   </header>
 
   <main>
+    <div class="container">
+      <div class="d-md-flex justify-content-md-between py-5">
+        <div>
+          <a class="icon-link icon-link-hover fs-5 icon-color fw-semibold"
+            style="--bs-link-hover-color-rgb: 233, 117, 40;" href="kosik.html">
+            KOŠÍK
+            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-arrow-right"
+              viewBox="0 0 16 16">
+              <path fill-rule="evenodd"
+                d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8" />
+            </svg>
+          </a>
+        </div>
 
+        <div>
+          <a class="icon-link icon-link-hover fs-5 icon-color fw-semibold"
+            style="--bs-link-hover-color-rgb: 233, 117, 40;" href="#">
+            DOPRAVA a PLATBA
+            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-arrow-right"
+              viewBox="0 0 16 16">
+              <path fill-rule="evenodd"
+                d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8" />
+            </svg>
+          </a>
+        </div>
+
+        <div>
+          <a class="icon-link icon-link-hover fs-5 icon-color fw-semibold"
+            style="--bs-link-hover-color-rgb: 233, 117, 40;" href="#">
+            DODACÍ ÚDAJE
+            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-arrow-right"
+              viewBox="0 0 16 16">
+              <path fill-rule="evenodd"
+                d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8" />
+            </svg>
+          </a>
+        </div>
+
+        <div>
+          <a class="icon-link icon-link-hover fs-5 icon-color fw-semibold"
+            style="--bs-link-hover-color-rgb: 233, 117, 40;" href="#">
+            SHRNUTÍ
+          </a>
+        </div>
+      </div>
+
+      <div class="line"></div>
+
+      <div>
+        <div class="d-flex justify-content-between mx-3 px-4 pt-5">
+          <p>Fotka produktu</p>
+          <p>Název</p>
+          <p>Počet kusů</p>
+          <p>Cena/ks</p>
+        </div>
+
+        <div class="d-flex justify-content-between bg-body-tertiary mx-3 p-4 align-items-center rounded">
+          <div class="kosik-img">
+            <img src="images/anc-blue.jpg" alt="Fotka produktu">
+          </div>
+
+          <div>
+            <h5>název</h5>
+          </div>
+
+          <div>
+              <div class="input-styly">
+                <form action="/action_page.php">
+                  <input type="number" id="points" name="points" step="1" placeholder="1" min="0" max="100">
+                </form>
+              </div>
+
+              <!--zkusit nějakej hezčí spinner-->
+          </div>
+
+          <div>
+            <p class="fw-semibold fs-5">8000 Kč</p>
+          </div>
+        </div>
+
+        <div class="d-flex justify-content-between bg-body-tertiary mx-3 p-4 my-4 align-items-center rounded">
+          <div class="kosik-img">
+            <img src="images/anc-blue.jpg" alt="Fotka produktu">
+          </div>
+
+          <div>
+            <h5>název</h5>
+          </div>
+
+          <div>
+              <div class="input-styly">
+                <form action="/action_page.php">
+                  <input type="number" id="points2" name="points" step="1" placeholder="1" min="0" max="100">
+                </form>
+              </div>
+
+              <!--zkusit nějakej hezčí spinner-->
+          </div>
+
+          <div>
+            <p class="fw-semibold fs-5">8000 Kč</p>
+          </div>
+        </div>
+
+        <div class="d-flex justify-content-between bg-body-tertiary mx-3 p-4 align-items-center rounded">
+          <div class="kosik-img">
+            <img src="images/anc-blue.jpg" alt="Fotka produktu">
+          </div>
+
+          <div>
+            <h5>název</h5>
+          </div>
+
+          <div>
+              <div class="input-styly">
+                <form action="/action_page.php">
+                  <input type="number" id="points3" name="points" step="1" placeholder="1" min="0" max="100">
+                </form>
+              </div>
+
+              <!--zkusit nějakej hezčí spinner-->
+          </div>
+
+          <div>
+            <p class="fw-semibold fs-5">8000 Kč</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="d-md-flex justify-content-md-between mt-sm-4 pb-4">
+        <div class="hstack gap-3 width-25">
+        <input class="form-control me-auto" type="text" placeholder="Vložte slevový kód"
+          aria-label="Vložte slevový kód">
+        <button type="button" class="btn btn-primary">Použít</button>
+      </div>
+
+      <div class="mt-sm-4">
+        <p class="fw-semibold fs-5">Cena celkem: <u class="fs-4">500000 Kč</u></p>
+      </div>
+      </div>
+      
+      <div class="d-flex justify-content-end mb-5">
+        <a class="icon-link icon-link-hover btn btn-primary fs-5" style="--bs-link-hover-color-rgb: 25, 135, 84;" href="#">
+          Pokračovat
+          <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-arrow-right"
+                viewBox="0 0 16 16">
+                <path fill-rule="evenodd"
+                  d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8" />
+              </svg>
+        </a>
+      </div>
+    </div>
   </main>
 
   <footer class="pt-5 footer-bg text-light">
@@ -189,6 +339,7 @@
       </div>
     </div>
   </footer>
+
 </body>
 
 </html>

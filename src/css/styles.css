@@ -70,3 +70,17 @@
 .footer-bg-dark {
   background-color: rgb(20, 20, 20);
 }
+
+.icon-color {
+  color: black;
+  transition-duration: 0.2s;
+}
+
+.icon-color:hover {
+  color: rgb(233, 117, 40);
+}
+
+.kosik-img img {
+  width: 100px;
+  height: auto;
+}
