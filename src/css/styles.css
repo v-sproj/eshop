@@ -46,22 +46,7 @@
   width: 20%;
  }
 
- @media screen and (max-width: 576px) {
-  .detail-img img {
-    width: 80px;
-    height: 80px;
-  }
-
-  .width-css {
-   width: 55%;
-  }
-}
-
-@media screen and (min-width: 576px) and (max-width: 1200px) {
-  .width-css {
-    width: 45%;
-   }
-}
+ 
 
 .footer-bg {
   background-color: rgb(31, 31, 31);
@@ -83,4 +68,28 @@
 .kosik-img img {
   width: 100px;
   height: auto;
+}
+
+.doprava-img img {
+  width: 80px;
+  height: auto;
+}
+
+@media screen and (max-width: 576px) {
+  .detail-img img {
+    width: 80px;
+    height: 80px;
+  }
+
+  .width-css {
+   width: 55%;
+  }
+
+}
+
+@media screen and (min-width: 576px) and (max-width: 1200px) {
+  .width-css {
+    width: 45%;
+   }
+
 }
